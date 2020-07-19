@@ -5,10 +5,15 @@
     <title>The National Institute of Engineering</title>
     <link rel="stylesheet" href="assets/stylesheet/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1",shrink-to-fit=no">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
       <meta name="name" content="university website by Surabhi">
       <meta name="robots" content="noindex, nofollow">
+        <script>
+          function myFunction() {
+            document.getElementById("myForm").reset();
+                                            alert("Thankyou for the submission!!Backend is not developed so submit button performs reset function);
+          }
+        </script>
    </head>
 
     <body>
@@ -41,7 +46,7 @@
              <textarea name="issue"></textarea> 
                   
             </fieldset>
-            <input class="btn btn-submit" type="submit" name="submit" id="submit"  value="Submit"/>
+            <input class="btn btn-submit" type="submit" name="submit" id="submit"  value="Submit" onclick="myFunction()"/>
               
           </form><!--
          --><section class="col-2-5">
